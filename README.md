@@ -3,8 +3,8 @@ RStudio DWR-Next NLA
 
     Some handy setup-tips when using RStudio.
     Current version of RStudio in DWR-Next env. is:
-    Rstudio-RstudioDesktop-1.4.1106
-    R 4.2.2 'Innocent and Trusting' (current dwr-next env.)
+    Rstudio-RstudioDesktop-1.4.1106 : ( https://www.npackd.org/p/rstudio/1.4.1106 )
+    R 4.2.2 'Innocent and Trusting' : ( https://cran.r-project.org/bin/windows/base/old/4.2.2/ )
 
 Install packages faster by skipping compilation
 
