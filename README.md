@@ -14,8 +14,10 @@ Install packages faster by skipping compilation
     setRepositories(addURLs = c(PRAN_R442="https://packagemanager.posit.co/cran/2025-02-27"),ind=0)
 
     # Test package install and see how much faster everything is without compilation.
-    install.packages("shiny") #this installs shiny 1.7.3 with all dependencies takes 2 minutes
-    install.packages("tidyverse") #this installs tidyverse 1.3.2 with all dependencies takes 4 minutes   
+    install.packages("rmarkdown") #this installs rmarkdown 2.29 with all dependencies takes 1 minute
+    install.packages("leaflet") #this installs leaflet 2.2.2 with all dependencies takes 2 minutes
+    install.packages("tidyverse") #this installs tidyverse 2.0.0 with all dependencies takes 2 minutes
+
 
 Alternative way to install packages via list
 
