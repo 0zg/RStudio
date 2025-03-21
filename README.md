@@ -2,16 +2,16 @@
 RStudio DWR-Next NLA
 
     Some handy setup-tips when using RStudio.
-    Current version of RStudio in DWR-Next env. is:
-    Rstudio-RstudioDesktop-1.4.1106 : ( https://www.npackd.org/p/rstudio/1.4.1106 )
-    R 4.2.2 'Innocent and Trusting' : ( https://cran.r-project.org/bin/windows/base/old/4.2.2/ )
+    Current version of RStudio Desktop in DWR-Next env. is (as of 2025/03/21) RStudio 2024.12 "Kousa Dogwood":
+    RStudio-2024.12.0-467 : ( https://s3.amazonaws.com/rstudio-ide-build/electron/windows/RStudio-2024.12.0-467.exe ) 
+    R 4.4.2 'Innocent and Trusting' : ( https://cran.r-project.org/bin/windows/base/old/4.2.2/ )
 
 Install packages faster by skipping compilation
 
-    # Use latest R 4.2.2 binaries repository and you don't have to compile.
+    # Use latest R 4.4.2 binaries repository and you don't have to compile.
     # The windows-binaries repository is managed by Posit software.
-    # To add windows-binary-4.2.2 and set as default repository, run following:
-    setRepositories(addURLs = c(PRAN_R422="https://packagemanager.posit.co/cran/2022-11-01"),ind=0)
+    # To add windows-binary-4.4.2 and set as default repository, run following:
+    setRepositories(addURLs = c(PRAN_R442="https://packagemanager.posit.co/cran/2025-02-27"),ind=0)
 
     # Test package install and see how much faster everything is without compilation.
     install.packages("shiny") #this installs shiny 1.7.3 with all dependencies takes 2 minutes
