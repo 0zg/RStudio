@@ -4,7 +4,7 @@ RStudio DWR-Next NLA
     Some handy setup-tips when using RStudio.
     Current version of RStudio Desktop in DWR-Next env. is (as of 2025/03/21) RStudio 2024.12 "Kousa Dogwood":
     RStudio-2024.12.0-467 : ( https://s3.amazonaws.com/rstudio-ide-build/electron/windows/RStudio-2024.12.0-467.exe ) 
-    R 4.4.2 'Innocent and Trusting' : ( https://cran.r-project.org/bin/windows/base/old/4.2.2/ )
+    R 4.4.2 'Pile of Leaves' : ( https://cran.r-project.org/bin/windows/base/old/4.4.2/ )
 
 Install packages faster by skipping compilation
 
